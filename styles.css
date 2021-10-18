@@ -1,0 +1,166 @@
+body{
+    margin:0;/*all 4 sides will be 0 px*/
+    text-align: center;
+    font-family: 'Scheherazade New', serif;
+    color:#053742;
+}
+
+h1{
+    margin-top: 0;
+    /*font-family: 'Playfair Display', serif;*/
+    font-family: 'Arizonia', cursive;
+    font-size: 4.625rem; /*100% = 16px = 1em*/
+    margin:20px auto 0 auto;
+    color: #66BFBF;
+    line-height: 1;
+}
+
+p{
+    font-family: 'Scheherazade New', serif;
+}
+h2{
+    font-family: 'Scheherazade New', serif;
+    font-size: 2 rem;
+    color: #39A2DB;
+    font-weight: bold;
+    margin: 0px;
+}
+
+.main-h2{
+    font-family: 'Scheherazade New', serif;
+    font-size: 2 rem;
+    color: #66BFBF;
+    font-weight: bold;
+    margin: 0px;
+}
+
+h3{
+    font-family: 'Scheherazade New', serif;
+    color:#053742;
+}
+
+.top-container{
+    background-color:#053742 ;
+    position: relative;
+    padding: 20px;
+    display: block;
+}
+
+.profile{
+    margin-bottom: 0;
+    padding: 5px;
+    line-height: normal;
+}
+
+
+.middle-container{
+    background-color: #E8F0F2;
+}
+.skill{
+    padding: 50px;
+}
+.skill-row{
+    width: 50%;
+    margin: 42px auto 42px auto;
+    text-align: left;
+    line-height: 2;
+    padding: 15px;;
+}
+
+.intro{
+    padding: 2px;
+    width: 30%;
+    margin: 2px auto;
+}
+
+.contact-message{
+    width: 40%;
+    margin: 40px auto 60px;
+}
+.bottom-container{
+    background-color:#39A2DB ;
+    padding: 40px 0 20px;
+}
+
+a{
+    color:black;
+    margin: 10px 20px;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+    color: brown;
+}
+
+.copyright{
+    color: #053742;
+    font-size: 1rem;
+    padding: 20px 0px;
+}
+.rimzim-pic{
+    height: 200px;
+    width: 200px;
+}
+
+.profile-2{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+}
+
+.dev-pic{
+    width: 25%;
+    float: left;
+    margin-right: 20px;
+}
+
+.prog-pic{
+    width: 25%;
+    float: right;
+    margin-left: 20px;
+}
+
+.mail {
+    -webkit-border-radius: 11px;
+    -moz-border-radius: 11px;
+    border-radius: 11px;
+    height: 12px;
+    line-height: 12px;
+    color: #053742;
+    font-family: Helvetica;
+    width: 96px;
+    font-size: 16px;
+    font-weight: 200;
+    padding: 16px;
+    background-color: #E8F0F2;
+    -webkit-box-shadow: inset 1px 1px 20px 0 #39A2DB;
+    -moz-box-shadow: inset 1px 1px 20px 0 #39A2DB;
+    box-shadow: inset 1px 1px 20px 0 #39A2DB;
+    text-shadow: 1px 1px 20px #A2DBFA;
+    border: outset #000000 1px;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+ }
+ 
+ .mail:hover {
+    background: #5FA7BE;
+    border: solid #053742 2px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    text-decoration: none;
+ }
+
+ hr{
+    border-style: none;
+    border-top-style: dotted;
+    border-color: black;
+    border-width: 3px;
+    /*height: 2px;*/
+    width: 4%;
+    border-bottom: none;
+
+}
